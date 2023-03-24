@@ -1,0 +1,18 @@
+@import '../../assets/varibales.scss';
+
+.InputItem {
+    width: 100%;
+    color: $primary-text-color;
+    font-size: $font-size-l;
+    padding:  15px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $color-orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline:none;
+    
+    &::placeholder {
+      color: $secondary-text-color;
+    }
+}
